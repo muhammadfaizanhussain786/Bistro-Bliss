@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+    body {
+    font-family: Roboto;
+    }
+    nav {
+    background-color: #F9F9F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    height: 70px;
+    font-family: Roboto;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+#logo img {
+    height: 40px;
+    width: 40px;
+}
+#logo p {
+font-size: 35px;
+}
+nav ul {
+    display: flex;
+
+}
+nav ul li {
+    font-size: 15px;
+    list-style: none;
+    height: 32px;
+    width: 77px;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li:hover {
+    background-color: #DBDFD0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+
+}
+.nav_btn {
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 118px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.nav_btn:hover {
+    background-color: #AD343E;
+    border: 1px solid black;
+    color: white;
+    font-weight: 500;
+    box-shadow: -2px 5px 30px #AD343E;
+}
+
+/* section 1 */
+.section_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1_head {
+    font-size: 70px;
+}
+.sec1_head_p {
+    margin-top: -50px;
+}
+.sec1_head_sec {
+    text-align: center;
+    width: 410px;
+}
+.sec1_boxes_mn {
+    margin-top: 50px;
+}
+.sec1_boxes_mn input {
+padding: 0px 40px 0px 40px;
+height: 35px;
+border-radius: 30px;
+border: 1px solid #DBDFD0;
+background-color: white;
+transition: 0.5s;
+cursor: pointer;
+}
+.sec1_boxes_mn input:hover {
+    background-color: #AD343E;
+    color: white;
+}
+
+/* boxes */
+
+.cards_mn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.box {
+    border: 1px solid #DBDFD0;
+    border-radius: 10px;
+    width: 250px;
+    height: 360px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.box img {
+    width: 100%;
+}
+.box_con {
+    padding: 0px 10px 10px 10px;
+}
+.box_rate {
+    font-size: 25px;
+    color: #AD343E;
+}
+.box_name {
+    margin-top: -10px;
+    font-size: 20px;
+}
+.box_p {
+    margin-top: -10px;
+}
+
+/* section 2 */
+.section_2 {
+    margin: 100px 0px 0px 0px;
+    padding: 100px 0px 80px 50px;
+    background-color: #F6F6F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.sec2_head {
+    font-size: 50px;
+}
+.sec2_con {
+    width: 300px;
+}
+.sec2_companiesIcons {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sec2_companiesIcons img {
+    width: 200px;
+    height: 80px;
+}
+.sec2_companiesIcons .long_with {
+    width: 220px;
+}
+
+
+/* footer */
+
+footer {
+    height: 600px;
+    background-color: #474747;
+    color: white;
+}
+.main_footer {
+    padding: 100px 100px 100px 130px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+
+.logo_sec p {
+    font-size: 28px;
+}
+.logo_sec img {
+    width: 50px;
+    height: 50px;
+}
+.logo_sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.con p {
+    width: 250px;
+    color: #ADB29E;
+    
+}
+.div1_logos img {
+    margin-top: 10px;
+}
+
+.link {
+    line-height: 30px;
+    color: #DBDFD0;
+}
+.div3 {
+    width: 250px;
+}
+.div4 img {
+    width: 150px;
+}
+.ft_lst_con {
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+    <div id="logo">
+        <img src="picture/logo-pic.png" alt="logo">
+        <p><em>Bistro Bliss</em></p>
+    </div>
+
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./pages.html">Pages</a></li>
+        <li><a href="./contact.html">contact</a></li>
+    </ul>
+
+    <input type="button" value="Book A Table" class="nav_btn">
+    </nav>
+
+<!-- section 1 -->
+ <section class="section_1">
+    <div class="sec1_head_sec">
+        <p class="sec1_head">Our Menu</p>
+        <p class="sec1_head_p">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+    </div>
+
+    <div class="sec1_boxes_mn">
+        <input type="button" value="All">
+        <input type="button" value="Breakfast">
+        <input type="button" value="Main Dishes">
+        <input type="button" value="Drinks">
+        <input type="button" value="Deserts">
+    </div>
+</section>
+
+<div class="cards_mn">
+
+    <div class="box">
+        <img src="picture/menu/Mask group (1).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 9.99</b></p>
+        <p class="box_name"><b>Fried Eggs</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (2).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 15.99</b></p>
+        <p class="box_name"><b>Hawaiian Pizza</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (3).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 7.25</b></p>
+        <p class="box_name"><b>Martinez Cocktail</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (4).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 20.99</b></p>
+        <p class="box_name"><b>Butterscotch Cake</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (5).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 5.89</b></p>
+        <p class="box_name"><b>Mint Lemonade</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (6).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 18.05</b></p>
+        <p class="box_name"><b>Chocolate Icecream</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (7).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 12.55</b></p>
+        <p class="box_name"><b>Cheese Burger</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="picture/menu/Mask group (8).png" alt="Freid Eggs">
+        <div class="box_con">
+        <p class="box_rate"><b>$ 12.99</b></p>
+        <p class="box_name"><b>Classic Waffles</b></p>
+        <p class="box_p">Made with eggs, lettuce, salt, oil and other ingredients.</p>
+        </div>
+    </div>
+</div>
+
+<!-- section 2 -->
+
+<section class="section_2">
+    <div class="sec2_con">
+    <p class="sec2_head">You can order through apps</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.</p>
+    </div>
+
+    <div class="sec2_companiesIcons">
+        <img src="picture/menu/compani (1).png" alt="Company Icon">
+        <img src="picture/menu/compani (2).png" alt="Company Icon">
+        <img src="picture/menu/compani (3).png" alt="Company Icon">
+        <img src="picture/menu/compani (4).png" alt="Company Icon" class="long_with">
+        <img src="picture/menu/compani (5).png" alt="Company Icon" class="long_with">
+        <img src="picture/menu/compani (6).png" alt="Company Icon" class="long_with">
+        <img src="picture/menu/compani (7).png" alt="Company Icon">
+        <img src="picture/menu/compani (8).png" alt="Company Icon">
+        <img src="picture/menu/compani (9).png" alt="Company Icon">
+    </div>
+</section>
+
+
+<!-- footer -->
+
+<footer>        
+    <div class="main_footer">
+
+   <div class="div1">
+    <div class="logo_sec">
+    <img src="picture/footer_logo.png" alt="logo">
+    <p><em>Bistro Bliss</em></p>
+    </div>
+    <div class="con">
+    <p>In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
+    </div>
+    <div class="div1_logos">
+        <img src="picture/1.png" alt="twittwe">
+        <img src="picture/2.png" alt="facebook">
+        <img src="picture/3.png" alt="instagram">
+        <img src="picture/4.png" alt="github">
+    </div>
+   </div>
+
+   <div class="div2">
+    <h3><b>Pages</b></h3>
+    <p class="link">Home<br>Aboout<br>Menu<br>Pricing<br>Blog<br>Contact<br>Delivery</p>
+   </div>
+
+   <div class="div3">
+    <h3><b>Utility Pages</b></h3>
+    <p class="link">Start Here<br>Styleguide<br>Password Protected<br>404 Not Found<br>Licenses<br>Changelog<br>View More</p>
+   </div>
+
+   <div class="div4">
+    <h3><b>Follow Us On Instagram</b></h3>
+    <img src="picture/Mask group (1).png" alt="chicken egg fry">
+    <img src="picture/Mask group (2).png" alt="Finger Fries">
+    <img src="picture/Mask group (3).png" alt="Special Finger Fries">
+    <img src="picture/Mask group (4).png" alt="">
+   </div>
+</div>
+
+<hr>
+   
+<p class="ft_lst_con">Copyright &copy; 2023 Hashtag Developer. All Rights Reserved</p>
+</footer>
+
+
+</body>
+</html>

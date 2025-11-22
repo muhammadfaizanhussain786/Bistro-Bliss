@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+body {
+    font-family: Roboto;
+}
+nav {
+    background-color: #F9F9F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    height: 70px;
+    font-family: Roboto;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+#logo img {
+    height: 40px;
+    width: 40px;
+}
+#logo p {
+font-size: 35px;
+}
+nav ul {
+    display: flex;
+
+}
+nav ul li {
+    font-size: 15px;
+    list-style: none;
+    height: 32px;
+    width: 77px;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li:hover {
+    background-color: #DBDFD0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #2C2F24;
+
+}
+.nav_btn {
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 118px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.nav_btn:hover {
+    background-color: #AD343E;
+    border: 1px solid black;
+    color: white;
+    font-weight: 500;
+    box-shadow: -2px 5px 30px #AD343E;
+}
+
+/* section 1 */
+
+.section_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F7;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 200px;
+}
+.sec1_head {
+    font-size: 70px;
+    color: #2C2F24;
+}
+.sec1_con_mn {
+    margin-top: -80px;
+    text-align: center;
+    width: 450px;
+}
+.sec1_p {
+    margin-top: -50px;
+    line-height: 25px;
+}
+form {
+
+    margin-top: -220px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 30px 10px 30px 30px;
+    border-radius: 10px;
+    line-height: 40px;
+}
+.name_mail_flex {
+    display: flex;
+    gap: 20px;
+}
+.row1 {
+    width: 205px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #DBDFD0;
+    padding: 5px 10px 5px 10px;
+}
+.row2 {
+    width: 453px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #DBDFD0;
+    padding: 5px 10px 5px 10px;
+}
+.textarea {
+    border-radius: 10px;
+    border: 1px solid #DBDFD0;
+    padding: 5px 10px 5px 10px;
+}
+.submit {
+    width: 469px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #AD343E;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.form_bottom_con{
+    margin: 40px 0px 40px 90px;
+    display: flex;
+    gap: 50px;
+}
+.phoneNo {
+    color: #AD343E;
+}
+
+
+/* Main flex */
+
+.main_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    height: 600px;
+    background-color: #474747;
+    color: white;
+}
+.main_footer {
+    padding: 100px 100px 100px 130px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+
+.logo_sec p {
+    font-size: 28px;
+}
+.logo_sec img {
+    width: 50px;
+    height: 50px;
+}
+.logo_sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.con p {
+    width: 250px;
+    color: #ADB29E;
+    
+}
+.div1_logos img {
+    margin-top: 10px;
+}
+
+.link {
+    line-height: 30px;
+    color: #DBDFD0;
+}
+.div3 {
+    width: 250px;
+}
+.div4 img {
+    width: 150px;
+}
+.ft_lst_con {
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+    <div id="logo">
+        <img src="picture/logo-pic.png" alt="logo">
+        <p><em>Bistro Bliss</em></p>
+    </div>
+
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./pages.html">Pages</a></li>
+        <li><a href="./contact.html">contact</a></li>
+    </ul>
+
+    <input type="button" value="Book A Table" class="nav_btn">
+    </nav>
+
+    <!-- section 1 -->
+<div class="main_flex">
+
+     <section class="section_1">
+     <div class="sec1_con_mn">
+    <p class="sec1_head">Contact Us</p>
+    <p class="sec1_p">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+    </div>
+    </section>
+
+    <!-- form -->
+
+    <form action="#">
+
+        <div class="name_mail_flex">
+        <div class="fullname">
+        <label for="userName"><b>Name</b></label><br>
+        <input type="text" id="userName" placeholder="Enter Your Name" class="row1">
+        </div>
+
+        <div class="mail">
+        <label for="userEmail"><b>Email</b></label><br>
+        <input type="email" id="userEmail" placeholder="Enter Your Email" class="row1">
+        </div>
+        </div>
+
+        <div class="subject">
+        <label for="subject"><b>Subject</b></label><br>
+        <input type="text" placeholder="Write a Subject" class="row2">
+        </div>
+
+        <div class="massage">
+        <label for="massage"><b>Message</b></label><br>
+        <textarea id="massage" placeholder="Enter Your Message" cols="59px" rows="7px" class="textarea"></textarea>
+        </div>
+
+        <input type="submit" value="Send" class="submit">
+    </form>
+
+    <div class="form_bottom_con">
+        <div class="div1">
+        <p><b>Call Us:</b></p>
+        <p class="phoneNo"><b>+1-234-567-8900</b></p>
+        </div>
+
+        <div class="div2">
+            <p><b>Hours:</b></p>
+            <p>Mon-Fri: 11am - 8pm <br>
+               Sat, Sun: 9am - 10pm</p>
+        </div>
+
+        <div class="div3">
+            <p><b>Our Location:</b></p>
+            <p>123 Bridge Street <br>
+               Nowhere Land, LA 12345 <br>
+               United States</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+
+<footer>        
+    <div class="main_footer">
+
+   <div class="div1">
+    <div class="logo_sec">
+    <img src="picture/footer_logo.png" alt="logo">
+    <p><em>Bistro Bliss</em></p>
+    </div>
+    <div class="con">
+    <p>In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
+    </div>
+    <div class="div1_logos">
+        <img src="picture/1.png" alt="twittwe">
+        <img src="picture/2.png" alt="facebook">
+        <img src="picture/3.png" alt="instagram">
+        <img src="picture/4.png" alt="github">
+    </div>
+   </div>
+
+   <div class="div2">
+    <h3><b>Pages</b></h3>
+    <p class="link">Home<br>Aboout<br>Menu<br>Pricing<br>Blog<br>Contact<br>Delivery</p>
+   </div>
+
+   <div class="div3">
+    <h3><b>Utility Pages</b></h3>
+    <p class="link">Start Here<br>Styleguide<br>Password Protected<br>404 Not Found<br>Licenses<br>Changelog<br>View More</p>
+   </div>
+
+   <div class="div4">
+    <h3><b>Follow Us On Instagram</b></h3>
+    <img src="picture/Mask group (1).png" alt="chicken egg fry">
+    <img src="picture/Mask group (2).png" alt="Finger Fries">
+    <img src="picture/Mask group (3).png" alt="Special Finger Fries">
+    <img src="picture/Mask group (4).png" alt="">
+   </div>
+</div>
+
+<hr>
+   
+<p class="ft_lst_con">Copyright &copy; 2023 Hashtag Developer. All Rights Reserved</p>
+</footer>
+
+
+</body>
+</html>
