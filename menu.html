@@ -8,14 +8,13 @@
     body {
     font-family: Roboto;
     }
-    nav {
+nav {
     background-color: #F9F9F7;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 170px;
     height: 70px;
-    font-family: Roboto;
 }
 
 #logo {
@@ -208,11 +207,25 @@ footer {
 }
 .div1_logos img {
     margin-top: 10px;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+.div1_logos img:hover {
+    transform: scale(1.1);
 }
 
 .link {
     line-height: 30px;
     color: #DBDFD0;
+}
+.link a {
+    color: #DBDFD0;
+    text-decoration: none;
+}
+.link a:hover {
+    color: white;
+    cursor: pointer;
+    
 }
 .div3 {
     width: 250px;
@@ -224,10 +237,12 @@ footer {
     text-align: center;
 }
 
+
     </style>
 </head>
 <body>
-    <nav>
+    <!-- navbar -->
+     <nav>
     <div id="logo">
         <img src="picture/logo-pic.png" alt="logo">
         <p><em>Bistro Bliss</em></p>
@@ -380,12 +395,12 @@ footer {
 
    <div class="div2">
     <h3><b>Pages</b></h3>
-    <p class="link">Home<br>Aboout<br>Menu<br>Pricing<br>Blog<br>Contact<br>Delivery</p>
+    <p class="link"><a href="index.html">Home</a><br><a href="about.html">About</a><br><a href="menu.html">Menu</a><br><a href="">Pricing</a><br><a href="">Blog</a><br><a href="contact.html">Contact</a><br><a href="">Delivery</a></p>
    </div>
 
    <div class="div3">
     <h3><b>Utility Pages</b></h3>
-    <p class="link">Start Here<br>Styleguide<br>Password Protected<br>404 Not Found<br>Licenses<br>Changelog<br>View More</p>
+    <p class="link"><a>Start Here</a><br><a>Styleguide</a><br><a>Password Protected</a><br><a>404 Not Found</a><br><a>Licenses</a><br><a>Changelog</a><br><a>View More</a></p>
    </div>
 
    <div class="div4">

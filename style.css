@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     scroll-behavior: smooth;
     font-family: Roboto;
@@ -113,6 +117,8 @@ nav ul li a {
     align-items: center;
     line-height: 25px;
     transition: ease 0.5s;
+    gap: 10px;
+    
 }
 .card:hover {
     transform: scale(1.05);
@@ -131,6 +137,9 @@ nav ul li a {
 }
 .card .card_btn:hover {
     transform: scale(1.05);
+}
+.card h3 {
+    margin-top: 10px;
 }
 
 /* 3 section */
@@ -157,12 +166,11 @@ nav ul li a {
 .section_3 .head {
     font-size: 50px;
 }
-.section_3 .para_1 {
+.section_3 .para {
     margin-top: 20px;
+    line-height: 22px;
 }
-.section_3 .para_2 {
-    margin-top: 20px;
-}
+
 .section_3 .btn {
     height: 45px;
     width: 160px;
@@ -208,7 +216,10 @@ nav ul li a {
 }
 .newSec_box_con {
     padding: 0px 20px 10px 0px;
-
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* 4 section */
@@ -257,13 +268,23 @@ nav ul li a {
     width: 30px;
     height: 30px;
 }
+.chld2 {
+    margin-top: 30px;
+    line-height: 40px;
+}
 .sec4_mn_con {
     padding-top: 120px;
     width: 420px;
     height: 469px;
 }
+.chld1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 /* 5 section */
+
 .sec5_mn_head {
     font-size: 40px;
     margin-top: 70px;
@@ -273,13 +294,16 @@ nav ul li a {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-top: 50px;
 }
 .sec5_h1 {
     color: #AD343E;
+    margin-top: 25px;
 }
 .sec5_p {
     width: 290px;
     line-height: 25px;
+    margin-top: 10px;
 }
 .sec5_box {
     background-color: #F9F9F7;
@@ -306,9 +330,8 @@ nav ul li a {
     width: 50px;
 }
 .box_chld_chld_flx {
-    line-height: 0px;
+    line-height: 20px;
 }
-
 
 /* section 6 */
 
@@ -358,7 +381,11 @@ nav ul li a {
     width: 500px;
 }
 .big_box_con {
-    padding: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 20px;
 }
 
 .short_box {
@@ -376,6 +403,9 @@ nav ul li a {
 }
 .short_box_con {
     padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .main_short_box {
     display: flex;
@@ -387,6 +417,8 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     gap: 80px;
+    margin-top: 50px;
+    
 }
 
 /* footer */
@@ -418,7 +450,13 @@ footer {
 .con p {
     width: 250px;
     color: #ADB29E;
+    margin-top: 40px;
     
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .div1_logos img {
     margin-top: 10px;
@@ -430,12 +468,14 @@ footer {
 }
 
 .link {
-    line-height: 30px;
+    line-height: 35px;
     color: #DBDFD0;
+    margin-top: 30px;
 }
 .link a {
     color: #DBDFD0;
     text-decoration: none;
+
 }
 .link a:hover {
     color: white;
@@ -448,6 +488,10 @@ footer {
 .div4 img {
     width: 150px;
 }
+.div4 .img {
+    margin-top: 35px;
+}
 .ft_lst_con {
     text-align: center;
+    margin-top: 20px;
 }

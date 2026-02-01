@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <style>
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Roboto;
 }    
@@ -81,10 +84,17 @@ nav ul li a {
     width: 500px;
 }
 .frontSec_head {
+    margin-top: 40px;
     font-size: 40px;
 }
 .sec1_con {
     width: 500px;
+}
+.frontSecpara {
+    margin-top: 50px;
+}
+.frontSecpara p {
+    line-height: 23px;
 }
 
 /* section 2 */
@@ -111,6 +121,8 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 70px;
+    padding-bottom: 50px;
 }
 .sec2_con {
     display: flex;
@@ -122,16 +134,16 @@ nav ul li a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 50px;
+    padding: 50px 0px;
 }
 .sec2_box img {
-    margin-top: 20px;
     width: 40px;
     height: 40px;
 }
 .sec2_box_con {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     
 }
 .sec2_box_p {
@@ -150,6 +162,10 @@ nav ul li a {
 .sec3_head {
     font-size: 40px;
 }
+.sec3_con {
+    margin-top: 20px;
+    line-height: 23px;
+}
 .sec3_headSec {
     width: 500px;
 }
@@ -162,7 +178,14 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 0px;
+    line-height: 12px;
+    transition: ease 0.5s;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+.sec3_box:hover {
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 .sec3_p3 {
     font-size: 30px;
@@ -183,9 +206,8 @@ width: 500px;
 }
 
 /* section 4 */
-
 .section_5 {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 .sec5_mn_head {
     font-size: 40px;
@@ -196,13 +218,16 @@ width: 500px;
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-top: 50px;
 }
 .sec5_h1 {
     color: #AD343E;
+    margin-top: 25px;
 }
 .sec5_p {
     width: 290px;
     line-height: 25px;
+    margin-top: 10px;
 }
 .sec5_box {
     background-color: #F9F9F7;
@@ -210,6 +235,10 @@ width: 500px;
     padding: 20px;
     width: 300px;
     height: 300px;
+    transition: ease 0.5s;
+}
+.sec5_box:hover {
+    transform: scale(1.05);
 }
 .sec5_hr {
     margin-top: 30px;
@@ -225,12 +254,10 @@ width: 500px;
     width: 50px;
 }
 .box_chld_chld_flx {
-    line-height: 0px;
+    line-height: 20px;
 }
 
-
 /* footer */
-
 footer {
     height: 600px;
     background-color: #474747;
@@ -258,15 +285,37 @@ footer {
 .con p {
     width: 250px;
     color: #ADB29E;
+    margin-top: 40px;
     
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .div1_logos img {
     margin-top: 10px;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+.div1_logos img:hover {
+    transform: scale(1.1);
 }
 
 .link {
-    line-height: 30px;
+    line-height: 35px;
     color: #DBDFD0;
+    margin-top: 30px;
+}
+.link a {
+    color: #DBDFD0;
+    text-decoration: none;
+
+}
+.link a:hover {
+    color: white;
+    cursor: pointer;
+    
 }
 .div3 {
     width: 250px;
@@ -274,14 +323,20 @@ footer {
 .div4 img {
     width: 150px;
 }
+.div4 .img {
+    margin-top: 35px;
+}
 .ft_lst_con {
     text-align: center;
+    margin-top: 20px;
 }
+
+
 
     </style>
 </head>
 <body>
-     <nav>
+      <nav>
     <div id="logo">
         <img src="picture/logo-pic.png" alt="logo">
         <p><em>Bistro Bliss</em></p>
@@ -304,8 +359,10 @@ footer {
         <img src="picture/about_pic/front_sec.png" alt="">
         <div class="sec1_con">
         <p class="frontSec_head">We provide healthy food for your family.</p>
+        <div class="frontSecpara">
         <p>Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.</p>
         <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
+        </div>
         </div>
     </section>
 
@@ -350,7 +407,7 @@ footer {
 
         <div class="sec3_headSec">
         <p class="sec3_head">A little information for our valuable guest</p>
-        <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
+        <p class="sec3_con">At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
         </div>
 
         <div class="sec3_mn_box">
@@ -377,14 +434,13 @@ footer {
     </section>
 
 <!-- section 4 -->
-
-<section class="section_5">
+  <section class="section_5">
 
         <p class="sec5_mn_head">What Our Customers Say</p>        
     <div class="sec5_box_flex">
         <div class="sec5_box">
             <h3 class="sec5_h1">“The best restaurant”</h3>
-            <p class="sec5_p">Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted atmosphere and greeted with warm smiles.</p>
+            <p class="sec5_p">Last night and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted atmosphere and greeted with warm smiles.</p>
 <hr class="sec5_hr">
             <div class="box_chld_flx">
                 <img src="picture/man img  (1).png" alt="Sophire Robson">
@@ -425,6 +481,7 @@ footer {
 
 <!-- footer -->
 
+
 <footer>        
     <div class="main_footer">
 
@@ -446,20 +503,22 @@ footer {
 
    <div class="div2">
     <h3><b>Pages</b></h3>
-    <p class="link">Home<br>Aboout<br>Menu<br>Pricing<br>Blog<br>Contact<br>Delivery</p>
+    <p class="link"><a href="index.html">Home</a><br><a href="about.html">About</a><br><a href="menu.html">Menu</a><br><a href="">Pricing</a><br><a href="">Blog</a><br><a href="contact.html">Contact</a><br><a href="">Delivery</a></p>
    </div>
 
    <div class="div3">
     <h3><b>Utility Pages</b></h3>
-    <p class="link">Start Here<br>Styleguide<br>Password Protected<br>404 Not Found<br>Licenses<br>Changelog<br>View More</p>
+    <p class="link"><a>Start Here</a><br><a>Styleguide</a><br><a>Password Protected</a><br><a>404 Not Found</a><br><a>Licenses</a><br><a>Changelog</a><br><a>View More</a></p>
    </div>
 
    <div class="div4">
     <h3><b>Follow Us On Instagram</b></h3>
+    <div class="img">
     <img src="picture/Mask group (1).png" alt="chicken egg fry">
     <img src="picture/Mask group (2).png" alt="Finger Fries">
     <img src="picture/Mask group (3).png" alt="Special Finger Fries">
     <img src="picture/Mask group (4).png" alt="">
+    </div>
    </div>
 </div>
 
@@ -467,6 +526,7 @@ footer {
    
 <p class="ft_lst_con">Copyright &copy; 2023 Hashtag Developer. All Rights Reserved</p>
 </footer>
+
 
 </body>
 </html>
